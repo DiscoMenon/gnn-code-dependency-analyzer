@@ -1,0 +1,10 @@
+@'
+venv/
+backend/data/repos/
+backend/data/model.pt
+__pycache__/
+*.pyc
+.env
+node_modules/
+frontend/.next/
+'@ | Out-File -Encoding utf8 .gitignore
